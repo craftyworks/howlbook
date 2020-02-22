@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1050631908358",
+    "firebase_url": "https://howlbook-dcedd.firebaseio.com",
+    "project_id": "howlbook-dcedd",
+    "storage_bucket": "howlbook-dcedd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050631908358:android:74298a7584c91d1e236787",
+        "android_client_info": {
+          "package_name": "com.ddam40.example.howlbookinit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050631908358-35smo0rfee7hd61p91gv26vn2t6u1as5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc8pPgp2th30pTMK1a11OW1ubddtv8vzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050631908358-35smo0rfee7hd61p91gv26vn2t6u1as5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
