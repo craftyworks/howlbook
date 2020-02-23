@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "813919796131",
+    "firebase_url": "https://jjinstagram-c6a50.firebaseio.com",
+    "project_id": "jjinstagram-c6a50",
+    "storage_bucket": "jjinstagram-c6a50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813919796131:android:0067d3d786296f74adb816",
+        "android_client_info": {
+          "package_name": "com.ddam40.example.jjinstagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813919796131-e2ca0uqi66jh0higur6874otji7h7914.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ddam40.example.jjinstagram",
+            "certificate_hash": "771b82864219de9eec76859850794165daaa4cc7"
+          }
+        },
+        {
+          "client_id": "813919796131-hp4latlcph7islfg3fl4sgr5vikcrgm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAohWWhAnp5B4k2HtoSS-DJcU1rE6HY-0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813919796131-hp4latlcph7islfg3fl4sgr5vikcrgm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
