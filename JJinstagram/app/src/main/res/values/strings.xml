@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">JJinstagram</string>
-    <string name="facebook_app_id">Facebook App Key</string>
-    <string name="fb_login_protocol_scheme">Facebook Login Protocol</string>
+    <string name="facebook_app_id">2528203314124874</string>
+    <string name="fb_login_protocol_scheme">fb2528203314124874</string>
     <string name="com_twitter_sdk_android_CONSUMER_KEY">CONSUMER KEY</string>
     <string name="com_twitter_sdk_android_CONSUMER_SECRET">SECRET KEY</string>
     <!-- Sign In -->
