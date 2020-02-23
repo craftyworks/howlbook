@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/detailviewitem_favorite_imageview"
+        app:layout_constraintStart_toEndOf="@+id/detailviewitem_favorite_imageview"
+        app:layout_constraintTop_toTopOf="@+id/detailviewitem_favorite_imageview"
+        app:srcCompat="@drawable/ic_chat_black" />
+
+    <ImageView
+        android:id="@+id/detailviewitem_profile_image"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/detailviewitem_profile_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="User Name"
+        app:layout_constraintBottom_toBottomOf="@+id/detailviewitem_profile_image"
+        app:layout_constraintStart_toEndOf="@+id/detailviewitem_profile_image"
+        app:layout_constraintTop_toTopOf="@+id/detailviewitem_profile_image" />
+
+    <ImageView
+        android:id="@+id/detailviewitem_imageview_content"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@color/com_facebook_blue" />
+
+    <ImageView
+        android:id="@+id/detailviewitem_favorite_imageview"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailviewitem_imageview_content"
+        app:srcCompat="@drawable/ic_favorite_border" />
+
+    <TextView
+        android:id="@+id/detailviewitem_favoritecounter_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="좋아요 0개"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailviewitem_favorite_imageview" />
+
+    <TextView
+        android:id="@+id/detailviewitem_explain_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="사진 내용"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailviewitem_favoritecounter_textview" />
+</androidx.constraintlayout.widget.ConstraintLayout>
